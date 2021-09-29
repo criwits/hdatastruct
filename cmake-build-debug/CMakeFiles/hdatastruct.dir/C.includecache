@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stack/hds_stack.h
+stdlib.h
+-
+
+/Users/hans/Coding/hdatastruct/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stack/hds_stack.h
+/Users/hans/Coding/hdatastruct/stack/hds_stack.h
+
