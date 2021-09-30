@@ -24,13 +24,13 @@ int hds_stack_push(hds_stack_t *self, const void *data, void (*assign)(void *,
         self->base->data = malloc(hds_stack_get_size(self));
         self->top = self->base;
         self->base->next = NULL;
-        (*assign)(self->base->data, data, hds_stack_get_size(self));
+        assign(self->base->data, data, hds_stack_get_size(self));
     } else {
         self->top->next = (hds_stack_node_t *)malloc(sizeof(hds_stack_node_t));
         self->top->next->next = NULL;
         self->top = self->top->next;
         self->top->data = malloc(hds_stack_get_size(self));
-        (*assign)(self->top->data, data, hds_stack_get_size(self));
+        assign(self->top->data, data, hds_stack_get_size(self));
     }
     (self->height)++;
     return 0;

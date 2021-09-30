@@ -1,10 +1,13 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hdatastruct.dir/main.c.o"
-  "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o"
-  "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o"
-  "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o"
-  "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o"
-  "hdatastruct"
+  "CMakeFiles/hdatastruct.dir/main.c.obj"
+  "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.obj"
+  "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.obj"
+  "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.obj"
+  "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.obj"
+  "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.obj"
+  "hdatastruct.exe"
+  "hdatastruct.exe.manifest"
+  "hdatastruct.lib"
   "hdatastruct.pdb"
 )
 

@@ -10,7 +10,7 @@
 stdlib.h
 -
 
-/Users/hans/Coding/hdatastruct/main.c
+D:/GitHub/hdatastruct/main.c
 stdio.h
 -
 stdlib.h
@@ -18,21 +18,25 @@ stdlib.h
 string.h
 -
 hds_stack.h
-/Users/hans/Coding/hdatastruct/hds_stack.h
+D:/GitHub/hdatastruct/hds_stack.h
 
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack_basic.c
+D:/GitHub/hdatastruct/src/stack/hds_stack_basic.c
 hds_stack.h
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+D:/GitHub/hdatastruct/src/stack/hds_stack.h
 
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c
+D:/GitHub/hdatastruct/src/stack/hds_stack_destroy.c
 hds_stack.h
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+D:/GitHub/hdatastruct/src/stack/hds_stack.h
 
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c
+D:/GitHub/hdatastruct/src/stack/hds_stack_init.c
 hds_stack.h
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+D:/GitHub/hdatastruct/src/stack/hds_stack.h
 
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c
+D:/GitHub/hdatastruct/src/stack/hds_stack_pop.c
 hds_stack.h
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+D:/GitHub/hdatastruct/src/stack/hds_stack.h
+
+D:/GitHub/hdatastruct/src/stack/hds_stack_push.c
+hds_stack.h
+D:/GitHub/hdatastruct/src/stack/hds_stack.h
 

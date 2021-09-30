@@ -16,6 +16,8 @@ int main()
     hds_stack_pop(&my_stack, &d, memcpy);
 
     printf("%d %d\n", c, d);
-    printf("Hello, World!\n");
+    printf("I can eat glass!\n");
+
+    hds_stack_destroy(&my_stack);
     return 0;
 }

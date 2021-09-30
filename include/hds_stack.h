@@ -32,6 +32,7 @@ size_t hds_stack_get_size(hds_stack_t *self);
 
 /** STACK OPERATIONS */
 int hds_stack_init(hds_stack_t *self, size_t size);
+int hds_stack_destroy(hds_stack_t *self);
 int hds_stack_push(hds_stack_t *self, const void *data, void (*assign)(void *,
         const void *, size_t));
 int hds_stack_pop(hds_stack_t *self, void *dest, void (*assign)(void *,

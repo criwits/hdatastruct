@@ -32,7 +32,7 @@ int hds_stack_pop(hds_stack_t *self, void *dest, void (*assign)(void *,
     if (hds_stack_is_empty(self)) {
         return 1;
     } else {
-        (*assign)(dest, self->top->data, hds_stack_get_size(self));
+        assign(dest, self->top->data, hds_stack_get_size(self));
         free(self->top->data);
         free(self->top);
         if (hds_stack_get_height(self) == 1) {

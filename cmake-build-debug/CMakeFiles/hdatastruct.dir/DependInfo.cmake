@@ -8,13 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hans/Coding/hdatastruct/main.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/main.c.o"
-  "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_basic.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o"
-  "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o"
-  "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o"
-  "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o"
+  "D:/GitHub/hdatastruct/main.c" "D:/GitHub/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/main.c.obj"
+  "D:/GitHub/hdatastruct/src/stack/hds_stack_basic.c" "D:/GitHub/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.obj"
+  "D:/GitHub/hdatastruct/src/stack/hds_stack_destroy.c" "D:/GitHub/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.obj"
+  "D:/GitHub/hdatastruct/src/stack/hds_stack_init.c" "D:/GitHub/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.obj"
+  "D:/GitHub/hdatastruct/src/stack/hds_stack_pop.c" "D:/GitHub/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.obj"
+  "D:/GitHub/hdatastruct/src/stack/hds_stack_push.c" "D:/GitHub/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
