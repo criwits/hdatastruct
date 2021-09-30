@@ -1,8 +1,12 @@
 //
-// Created by Hans Wan on 2021/9/29.
+// HDATASTRUCT - Hans' Data Structure Library
+// Part I: Stack
+//
+// Initialize
+// (C) Hans Wan. Licensed under Mozilla Public License 2.0
 //
 
-#include "stack/hds_stack.h"
+#include "hds_stack.h"
 
 void private_hds_stack_destroy_node(hds_stack_node_t *node)
 {

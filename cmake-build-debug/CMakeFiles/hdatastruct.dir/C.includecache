@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../include/stack/hds_stack.h
+../include/hds_stack.h
 stdlib.h
 -
 
@@ -17,6 +17,22 @@ stdlib.h
 -
 string.h
 -
-stack/hds_stack.h
-/Users/hans/Coding/hdatastruct/stack/hds_stack.h
+hds_stack.h
+/Users/hans/Coding/hdatastruct/hds_stack.h
+
+/Users/hans/Coding/hdatastruct/src/stack/hds_stack_basic.c
+hds_stack.h
+/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+
+/Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c
+hds_stack.h
+/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+
+/Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c
+hds_stack.h
+/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+
+/Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c
+hds_stack.h
+/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
 

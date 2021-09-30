@@ -91,6 +91,9 @@
 		<Unit filename="/Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c">
 			<Option target="hdatastruct"/>
 		</Unit>
+		<Unit filename="/Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c">
+			<Option target="hdatastruct"/>
+		</Unit>
 		<Unit filename="/Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c">
 			<Option target="hdatastruct"/>
 		</Unit>

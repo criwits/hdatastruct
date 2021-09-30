@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/hans/Coding/hdatastruct/main.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/main.c.o"
   "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_basic.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o"
   "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o"
+  "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o"
   "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

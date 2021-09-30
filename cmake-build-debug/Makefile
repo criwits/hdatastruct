@@ -201,6 +201,30 @@ src/stack/hds_stack_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.s
 .PHONY : src/stack/hds_stack_init.c.s
 
+src/stack/hds_stack_pop.o: src/stack/hds_stack_pop.c.o
+.PHONY : src/stack/hds_stack_pop.o
+
+# target to build an object file
+src/stack/hds_stack_pop.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o
+.PHONY : src/stack/hds_stack_pop.c.o
+
+src/stack/hds_stack_pop.i: src/stack/hds_stack_pop.c.i
+.PHONY : src/stack/hds_stack_pop.i
+
+# target to preprocess a source file
+src/stack/hds_stack_pop.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.i
+.PHONY : src/stack/hds_stack_pop.c.i
+
+src/stack/hds_stack_pop.s: src/stack/hds_stack_pop.c.s
+.PHONY : src/stack/hds_stack_pop.s
+
+# target to generate assembly for a file
+src/stack/hds_stack_pop.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.s
+.PHONY : src/stack/hds_stack_pop.c.s
+
 src/stack/hds_stack_push.o: src/stack/hds_stack_push.c.o
 .PHONY : src/stack/hds_stack_push.o
 
@@ -243,6 +267,9 @@ help:
 	@echo "... src/stack/hds_stack_init.o"
 	@echo "... src/stack/hds_stack_init.i"
 	@echo "... src/stack/hds_stack_init.s"
+	@echo "... src/stack/hds_stack_pop.o"
+	@echo "... src/stack/hds_stack_pop.i"
+	@echo "... src/stack/hds_stack_pop.s"
 	@echo "... src/stack/hds_stack_push.o"
 	@echo "... src/stack/hds_stack_push.i"
 	@echo "... src/stack/hds_stack_push.s"
