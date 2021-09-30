@@ -15,6 +15,9 @@
 /** STACK NODE TYPE */
 typedef struct hds_stack_node_s {
     void *data;
+#ifdef HDS_STACK_USE_DOUBLY_LINKED_LIST
+    struct hds_stack_node_s *prev;
+#endif
     struct hds_stack_node_s *next;
 } hds_stack_node_t;
 

@@ -4,105 +4,103 @@
 	<Project>
 		<Option title="hdatastruct"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/GitHub/hdatastruct/cmake-build-debug"/>
+				<Option working_dir="/Users/hans/Coding/hdatastruct/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hdatastruct">
-				<Option output="D:/GitHub/hdatastruct/cmake-build-debug/hdatastruct.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/GitHub/hdatastruct/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="D:/GitHub/hdatastruct/include"/>
-					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 hdatastruct"/>
-					<CompileFile command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hdatastruct/fast">
-				<Option output="D:/GitHub/hdatastruct/cmake-build-debug/hdatastruct.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/GitHub/hdatastruct/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="D:/GitHub/hdatastruct/include"/>
-					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 hdatastruct/fast"/>
-					<CompileFile command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/GitHub/hdatastruct/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/GitHub/hdatastruct/cmake-build-debug"/>
+				<Option working_dir="/Users/hans/Coding/hdatastruct/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\GitHub\hdatastruct\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hans/Coding/hdatastruct/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hdatastruct">
+				<Option output="/Users/hans/Coding/hdatastruct/cmake-build-debug/hdatastruct" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hans/Coding/hdatastruct/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hans/Coding/hdatastruct/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 hdatastruct"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hdatastruct/fast">
+				<Option output="/Users/hans/Coding/hdatastruct/cmake-build-debug/hdatastruct" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hans/Coding/hdatastruct/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hans/Coding/hdatastruct/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 hdatastruct/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/hans/Coding/hdatastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/GitHub/hdatastruct/main.c">
+		<Unit filename="/Users/hans/Coding/hdatastruct/main.c">
 			<Option target="hdatastruct"/>
 		</Unit>
-		<Unit filename="D:/GitHub/hdatastruct/src/stack/hds_stack_basic.c">
+		<Unit filename="/Users/hans/Coding/hdatastruct/src/stack/hds_stack_basic.c">
 			<Option target="hdatastruct"/>
 		</Unit>
-		<Unit filename="D:/GitHub/hdatastruct/src/stack/hds_stack_destroy.c">
+		<Unit filename="/Users/hans/Coding/hdatastruct/src/stack/hds_stack_destroy.c">
 			<Option target="hdatastruct"/>
 		</Unit>
-		<Unit filename="D:/GitHub/hdatastruct/src/stack/hds_stack_init.c">
+		<Unit filename="/Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c">
 			<Option target="hdatastruct"/>
 		</Unit>
-		<Unit filename="D:/GitHub/hdatastruct/src/stack/hds_stack_pop.c">
+		<Unit filename="/Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c">
 			<Option target="hdatastruct"/>
 		</Unit>
-		<Unit filename="D:/GitHub/hdatastruct/src/stack/hds_stack_push.c">
+		<Unit filename="/Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c">
 			<Option target="hdatastruct"/>
 		</Unit>
-		<Unit filename="D:/GitHub/hdatastruct/CMakeLists.txt">
+		<Unit filename="/Users/hans/Coding/hdatastruct/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -28,4 +28,12 @@ typedef struct hds_queue_s {
     size_t nsize;
 } hds_queue_t;
 
+/** BASIC FUNCTIONS */
+int hds_queue_get_length(hds_queue_t *self);
+size_t hds_queue_get_size(hds_queue_t *self);
+_Bool hds_queue_is_empty(hds_queue_t *self);
+
+/** QUEUE OPERATIONS */
+int hds_queue_init(hds_queue_t *self, size_t size);
+
 #endif //HDATASTRUCT_HDS_QUEUE_H

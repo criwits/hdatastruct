@@ -9,6 +9,7 @@
 
 #include "hds_stack.h"
 
+#ifndef HDS_STACK_USE_DOUBLY_LINKED_LIST
 hds_stack_node_t *private_hds_stack_get_next_node(hds_stack_node_t *node, int n)
 {
     if (!n) {
@@ -17,6 +18,7 @@ hds_stack_node_t *private_hds_stack_get_next_node(hds_stack_node_t *node, int n)
         return private_hds_stack_get_next_node(node->next, n - 1);
     }
 }
+#endif
 
 /**
  * Pop an element out of a stack.
@@ -34,14 +36,21 @@ int hds_stack_pop(hds_stack_t *self, void *dest, void (*assign)(void *,
     } else {
         assign(dest, self->top->data, hds_stack_get_size(self));
         free(self->top->data);
-        free(self->top);
         if (hds_stack_get_height(self) == 1) {
+            free(self->top);
             self->base = NULL;
             self->top = NULL;
         } else {
+#ifdef HDS_STACK_USE_DOUBLY_LINKED_LIST
+            self->top = self->top->prev;
+            free(self->top->next);
+            self->top->next = NULL;
+#else
+            free(self->top);
             self->top = private_hds_stack_get_next_node(self->base,
                                                         hds_stack_get_height(self) - 2);
             self->top->next = NULL;
+#endif
         }
     }
     (self->height)--;

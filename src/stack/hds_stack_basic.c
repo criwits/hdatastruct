@@ -6,7 +6,6 @@
 // (C) Hans Wan. Licensed under Mozilla Public License 2.0
 //
 
-
 #include "hds_stack.h"
 
 /**
@@ -26,7 +25,7 @@ int hds_stack_get_height(hds_stack_t *self)
  */
 _Bool hds_stack_is_empty(hds_stack_t *self)
 {
-    return (self->height == 0) ? 1 : 0;
+    return (hds_stack_get_height(self) == 0) ? 1 : 0;
 }
 
 /**
