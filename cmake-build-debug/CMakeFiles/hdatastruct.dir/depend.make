@@ -4,6 +4,15 @@
 CMakeFiles/hdatastruct.dir/main.c.o: \
  ../include/hds_stack.h \
  ../main.c
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.o: \
+ ../include/hds_queue.h \
+ ../src/queue/hds_queue_basic.c
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.o: \
+ ../include/hds_queue.h \
+ ../src/queue/hds_queue_destroy.c
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.o: \
+ ../include/hds_queue.h \
+ ../src/queue/hds_queue_init.c
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o: \
  ../include/hds_stack.h \
  ../src/stack/hds_stack_basic.c

@@ -1,5 +1,4 @@
 The system is: Darwin - 16.7.0 - x86_64
-The system is: Darwin - 16.7.0 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
 Build flags: 
@@ -11,98 +10,95 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/local/bin/gmake -f Makefile cmTC_b0c25/fast && /opt/local/bin/gmake  -f CMakeFiles/cmTC_b0c25.dir/build.make CMakeFiles/cmTC_b0c25.dir/build
-gmake[1]: Entering directory '/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/opt/local/bin/gmake -f Makefile cmTC_44707/fast && /opt/local/bin/gmake  -f CMakeFiles/cmTC_44707.dir/build.make CMakeFiles/cmTC_44707.dir/build
+gmake[1]: Entering directory '/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -c "/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCCompilerABI.c"
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
 Target: x86_64-apple-darwin16.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
- "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.12.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -target-linker-version 305 -v -dwarf-column-info -debugger-tuning=lldb -coverage-notes-file /Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0 -dependency-file CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -fdebug-compilation-dir /Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.12.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.12.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -target-linker-version 305 -v -dwarf-column-info -debugger-tuning=lldb -coverage-notes-file /Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0 -dependency-file CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -fdebug-compilation-dir /Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.12.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -x c /Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCCompilerABI.c
 clang -cc1 version 9.0.0 (clang-900.0.39.2) default target x86_64-apple-darwin16.7.0
+ignoring nonexistent directory "/usr/local/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /usr/local/include
  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include
  /Library/Developer/CommandLineTools/usr/include
  /usr/include
  /System/Library/Frameworks (framework directory)
  /Library/Frameworks (framework directory)
 End of search list.
-Linking C executable cmTC_b0c25
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0c25.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -o cmTC_b0c25 
+Linking C executable cmTC_44707
+"/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_44707.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -o cmTC_44707 
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
 Target: x86_64-apple-darwin16.7.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_b0c25 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_44707 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-305
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
 	/usr/lib
-	/usr/local/lib
 Framework search paths:
 	/Library/Frameworks/
 	/System/Library/Frameworks/
-gmake[1]: Leaving directory '/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/usr/local/include]
     add: [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include]
     add: [/Library/Developer/CommandLineTools/usr/include]
     add: [/usr/include]
   end of search list found
-  collapse include dir [/usr/local/include] ==> [/usr/local/include]
   collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include]
   collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
   collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/local/include;/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include;/Library/Developer/CommandLineTools/usr/include;/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include;/Library/Developer/CommandLineTools/usr/include;/usr/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/opt/local/bin/gmake -f Makefile cmTC_b0c25/fast && /opt/local/bin/gmake  -f CMakeFiles/cmTC_b0c25.dir/build.make CMakeFiles/cmTC_b0c25.dir/build]
-  ignore line: [gmake[1]: Entering directory '/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/opt/local/bin/gmake -f Makefile cmTC_44707/fast && /opt/local/bin/gmake  -f CMakeFiles/cmTC_44707.dir/build.make CMakeFiles/cmTC_44707.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -c "/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCCompilerABI.c"]
   ignore line: [Apple LLVM version 9.0.0 (clang-900.0.39.2)]
   ignore line: [Target: x86_64-apple-darwin16.7.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
   ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.12.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -target-linker-version 305 -v -dwarf-column-info -debugger-tuning=lldb -coverage-notes-file /Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0 -dependency-file CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -fdebug-compilation-dir /Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.12.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.12.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -target-linker-version 305 -v -dwarf-column-info -debugger-tuning=lldb -coverage-notes-file /Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0 -dependency-file CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -fdebug-compilation-dir /Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fobjc-runtime=macosx-10.12.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -x c /Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
   ignore line: [clang -cc1 version 9.0.0 (clang-900.0.39.2) default target x86_64-apple-darwin16.7.0]
+  ignore line: [ignoring nonexistent directory "/usr/local/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/local/include]
   ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include]
   ignore line: [ /Library/Developer/CommandLineTools/usr/include]
   ignore line: [ /usr/include]
   ignore line: [ /System/Library/Frameworks (framework directory)]
   ignore line: [ /Library/Frameworks (framework directory)]
   ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_b0c25]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0c25.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -o cmTC_b0c25 ]
+  ignore line: [Linking C executable cmTC_44707]
+  ignore line: ["/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_44707.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -o cmTC_44707 ]
   ignore line: [Apple LLVM version 9.0.0 (clang-900.0.39.2)]
   ignore line: [Target: x86_64-apple-darwin16.7.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_b0c25 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.0 -o cmTC_44707 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -113,24 +109,23 @@ Parsed C implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.12.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b0c25] ==> ignore
+    arg [cmTC_44707] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_b0c25.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_44707.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/usr/lib;/usr/local/lib]
+  Library search paths: [;/usr/lib]
   Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
   remove lib [System]
   remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
   collapse library dir [/usr/lib] ==> [/usr/lib]
-  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
   collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
   collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
   implicit libs: []
   implicit objs: []
-  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit dirs: [/usr/lib]
   implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
 
 

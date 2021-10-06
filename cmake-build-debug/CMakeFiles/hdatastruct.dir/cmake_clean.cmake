@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hdatastruct.dir/main.c.o"
+  "CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.o"
+  "CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.o"
+  "CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.o"
+  "CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.o"
   "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o"
   "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o"
   "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o"

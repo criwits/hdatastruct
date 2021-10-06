@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = "/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hans/Coding/hdatastruct
+CMAKE_SOURCE_DIR = "/Volumes/Files HD/Coding/hdatastruct"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hans/Coding/hdatastruct/cmake-build-debug
+CMAKE_BINARY_DIR = "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/hdatastruct.dir/clean
 CMakeFiles/hdatastruct.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target hdatastruct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target hdatastruct"
 .PHONY : CMakeFiles/hdatastruct.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hdatastruct.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hdatastruct.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/hdatastruct.dir/rule
 
 # Convenience name for target.

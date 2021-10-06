@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = "/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hans/Coding/hdatastruct
+CMAKE_SOURCE_DIR = "/Volumes/Files HD/Coding/hdatastruct"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hans/Coding/hdatastruct/cmake-build-debug
+CMAKE_BINARY_DIR = "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hdatastruct.dir/depend.make
@@ -68,81 +68,133 @@ include CMakeFiles/hdatastruct.dir/flags.make
 
 CMakeFiles/hdatastruct.dir/main.c.o: CMakeFiles/hdatastruct.dir/flags.make
 CMakeFiles/hdatastruct.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hdatastruct.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/main.c.o -c /Users/hans/Coding/hdatastruct/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hdatastruct.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/main.c.o -c "/Volumes/Files HD/Coding/hdatastruct/main.c"
 
 CMakeFiles/hdatastruct.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdatastruct.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hans/Coding/hdatastruct/main.c > CMakeFiles/hdatastruct.dir/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Files HD/Coding/hdatastruct/main.c" > CMakeFiles/hdatastruct.dir/main.c.i
 
 CMakeFiles/hdatastruct.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdatastruct.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hans/Coding/hdatastruct/main.c -o CMakeFiles/hdatastruct.dir/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Files HD/Coding/hdatastruct/main.c" -o CMakeFiles/hdatastruct.dir/main.c.s
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o: CMakeFiles/hdatastruct.dir/flags.make
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o: ../src/stack/hds_stack_basic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o -c /Users/hans/Coding/hdatastruct/src/stack/hds_stack_basic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o -c "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_basic.c"
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hans/Coding/hdatastruct/src/stack/hds_stack_basic.c > CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_basic.c" > CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.i
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hans/Coding/hdatastruct/src/stack/hds_stack_basic.c -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_basic.c" -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.s
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o: CMakeFiles/hdatastruct.dir/flags.make
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o: ../src/stack/hds_stack_destroy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o -c /Users/hans/Coding/hdatastruct/src/stack/hds_stack_destroy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o -c "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_destroy.c"
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hans/Coding/hdatastruct/src/stack/hds_stack_destroy.c > CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_destroy.c" > CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.i
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hans/Coding/hdatastruct/src/stack/hds_stack_destroy.c -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_destroy.c" -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.s
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o: CMakeFiles/hdatastruct.dir/flags.make
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o: ../src/stack/hds_stack_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o -c /Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o -c "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_init.c"
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c > CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_init.c" > CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.i
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_init.c" -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.s
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o: CMakeFiles/hdatastruct.dir/flags.make
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o: ../src/stack/hds_stack_pop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o -c /Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o -c "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_pop.c"
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c > CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_pop.c" > CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.i
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_pop.c" -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.s
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o: CMakeFiles/hdatastruct.dir/flags.make
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o: ../src/stack/hds_stack_push.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o -c /Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o -c "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_push.c"
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c > CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_push.c" > CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.i
 
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_push.c" -o CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.s
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.o: CMakeFiles/hdatastruct.dir/flags.make
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.o: ../src/queue/hds_queue_basic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.o -c "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_basic.c"
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_basic.c" > CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.i
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_basic.c" -o CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.s
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.o: CMakeFiles/hdatastruct.dir/flags.make
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.o: ../src/queue/hds_queue_destroy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.o -c "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_destroy.c"
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_destroy.c" > CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.i
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_destroy.c" -o CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.s
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.o: CMakeFiles/hdatastruct.dir/flags.make
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.o: ../src/queue/hds_queue_enqueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.o -c "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_enqueue.c"
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_enqueue.c" > CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.i
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_enqueue.c" -o CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.s
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.o: CMakeFiles/hdatastruct.dir/flags.make
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.o: ../src/queue/hds_queue_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.o -c "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_init.c"
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_init.c" > CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.i
+
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_init.c" -o CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.s
 
 # Object files for target hdatastruct
 hdatastruct_OBJECTS = \
@@ -151,7 +203,11 @@ hdatastruct_OBJECTS = \
 "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o" \
 "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o" \
 "CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o" \
-"CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o"
+"CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o" \
+"CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.o" \
+"CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.o" \
+"CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.o" \
+"CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.o"
 
 # External object files for target hdatastruct
 hdatastruct_EXTERNAL_OBJECTS =
@@ -162,9 +218,13 @@ hdatastruct: CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o
 hdatastruct: CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o
 hdatastruct: CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o
 hdatastruct: CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o
+hdatastruct: CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.o
+hdatastruct: CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.o
+hdatastruct: CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.o
+hdatastruct: CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.o
 hdatastruct: CMakeFiles/hdatastruct.dir/build.make
 hdatastruct: CMakeFiles/hdatastruct.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable hdatastruct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable hdatastruct"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hdatastruct.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -176,6 +236,6 @@ CMakeFiles/hdatastruct.dir/clean:
 .PHONY : CMakeFiles/hdatastruct.dir/clean
 
 CMakeFiles/hdatastruct.dir/depend:
-	cd /Users/hans/Coding/hdatastruct/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hans/Coding/hdatastruct /Users/hans/Coding/hdatastruct /Users/hans/Coding/hdatastruct/cmake-build-debug /Users/hans/Coding/hdatastruct/cmake-build-debug /Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/Files HD/Coding/hdatastruct" "/Volumes/Files HD/Coding/hdatastruct" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/hdatastruct.dir/depend
 

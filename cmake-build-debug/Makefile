@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = "/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hans/Coding/hdatastruct
+CMAKE_SOURCE_DIR = "/Volumes/Files HD/Coding/hdatastruct"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hans/Coding/hdatastruct/cmake-build-debug
+CMAKE_BINARY_DIR = "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/hans/Coding/hdatastruct/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Volumes/Files HD/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles /Users/hans/Coding/hdatastruct/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,102 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/main.c.s
 .PHONY : main.c.s
+
+src/queue/hds_queue_basic.o: src/queue/hds_queue_basic.c.o
+.PHONY : src/queue/hds_queue_basic.o
+
+# target to build an object file
+src/queue/hds_queue_basic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.o
+.PHONY : src/queue/hds_queue_basic.c.o
+
+src/queue/hds_queue_basic.i: src/queue/hds_queue_basic.c.i
+.PHONY : src/queue/hds_queue_basic.i
+
+# target to preprocess a source file
+src/queue/hds_queue_basic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.i
+.PHONY : src/queue/hds_queue_basic.c.i
+
+src/queue/hds_queue_basic.s: src/queue/hds_queue_basic.c.s
+.PHONY : src/queue/hds_queue_basic.s
+
+# target to generate assembly for a file
+src/queue/hds_queue_basic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.s
+.PHONY : src/queue/hds_queue_basic.c.s
+
+src/queue/hds_queue_destroy.o: src/queue/hds_queue_destroy.c.o
+.PHONY : src/queue/hds_queue_destroy.o
+
+# target to build an object file
+src/queue/hds_queue_destroy.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.o
+.PHONY : src/queue/hds_queue_destroy.c.o
+
+src/queue/hds_queue_destroy.i: src/queue/hds_queue_destroy.c.i
+.PHONY : src/queue/hds_queue_destroy.i
+
+# target to preprocess a source file
+src/queue/hds_queue_destroy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.i
+.PHONY : src/queue/hds_queue_destroy.c.i
+
+src/queue/hds_queue_destroy.s: src/queue/hds_queue_destroy.c.s
+.PHONY : src/queue/hds_queue_destroy.s
+
+# target to generate assembly for a file
+src/queue/hds_queue_destroy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.s
+.PHONY : src/queue/hds_queue_destroy.c.s
+
+src/queue/hds_queue_enqueue.o: src/queue/hds_queue_enqueue.c.o
+.PHONY : src/queue/hds_queue_enqueue.o
+
+# target to build an object file
+src/queue/hds_queue_enqueue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.o
+.PHONY : src/queue/hds_queue_enqueue.c.o
+
+src/queue/hds_queue_enqueue.i: src/queue/hds_queue_enqueue.c.i
+.PHONY : src/queue/hds_queue_enqueue.i
+
+# target to preprocess a source file
+src/queue/hds_queue_enqueue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.i
+.PHONY : src/queue/hds_queue_enqueue.c.i
+
+src/queue/hds_queue_enqueue.s: src/queue/hds_queue_enqueue.c.s
+.PHONY : src/queue/hds_queue_enqueue.s
+
+# target to generate assembly for a file
+src/queue/hds_queue_enqueue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.s
+.PHONY : src/queue/hds_queue_enqueue.c.s
+
+src/queue/hds_queue_init.o: src/queue/hds_queue_init.c.o
+.PHONY : src/queue/hds_queue_init.o
+
+# target to build an object file
+src/queue/hds_queue_init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.o
+.PHONY : src/queue/hds_queue_init.c.o
+
+src/queue/hds_queue_init.i: src/queue/hds_queue_init.c.i
+.PHONY : src/queue/hds_queue_init.i
+
+# target to preprocess a source file
+src/queue/hds_queue_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.i
+.PHONY : src/queue/hds_queue_init.c.i
+
+src/queue/hds_queue_init.s: src/queue/hds_queue_init.c.s
+.PHONY : src/queue/hds_queue_init.s
+
+# target to generate assembly for a file
+src/queue/hds_queue_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hdatastruct.dir/build.make CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.s
+.PHONY : src/queue/hds_queue_init.c.s
 
 src/stack/hds_stack_basic.o: src/stack/hds_stack_basic.c.o
 .PHONY : src/stack/hds_stack_basic.o
@@ -285,6 +381,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/queue/hds_queue_basic.o"
+	@echo "... src/queue/hds_queue_basic.i"
+	@echo "... src/queue/hds_queue_basic.s"
+	@echo "... src/queue/hds_queue_destroy.o"
+	@echo "... src/queue/hds_queue_destroy.i"
+	@echo "... src/queue/hds_queue_destroy.s"
+	@echo "... src/queue/hds_queue_enqueue.o"
+	@echo "... src/queue/hds_queue_enqueue.i"
+	@echo "... src/queue/hds_queue_enqueue.s"
+	@echo "... src/queue/hds_queue_init.o"
+	@echo "... src/queue/hds_queue_init.i"
+	@echo "... src/queue/hds_queue_init.s"
 	@echo "... src/stack/hds_stack_basic.o"
 	@echo "... src/stack/hds_stack_basic.i"
 	@echo "... src/stack/hds_stack_basic.s"

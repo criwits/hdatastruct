@@ -35,5 +35,7 @@ _Bool hds_queue_is_empty(hds_queue_t *self);
 
 /** QUEUE OPERATIONS */
 int hds_queue_init(hds_queue_t *self, size_t size);
+int hds_queue_enqueue(hds_queue_t *self, const void *data, void (*assign)(void *,
+        const void *, size_t));
 
 #endif //HDATASTRUCT_HDS_QUEUE_H

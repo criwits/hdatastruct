@@ -8,12 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hans/Coding/hdatastruct/main.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/main.c.o"
-  "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_basic.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o"
-  "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_destroy.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o"
-  "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o"
-  "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o"
-  "/Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c" "/Users/hans/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o"
+  "/Volumes/Files HD/Coding/hdatastruct/main.c" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/main.c.o"
+  "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_basic.c" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.o"
+  "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_destroy.c" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.o"
+  "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_enqueue.c" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/queue/hds_queue_enqueue.c.o"
+  "/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_init.c" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.o"
+  "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_basic.c" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o"
+  "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_destroy.c" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o"
+  "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_init.c" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o"
+  "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_pop.c" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o"
+  "/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_push.c" "/Volumes/Files HD/Coding/hdatastruct/cmake-build-debug/CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

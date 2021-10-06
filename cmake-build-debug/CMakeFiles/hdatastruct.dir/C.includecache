@@ -6,27 +6,53 @@
 
 #IncludeRegexTransform: 
 
+../include/hds_queue.h
+stdlib.h
+-
+
 ../include/hds_stack.h
 stdlib.h
 -
 
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack_basic.c
+/Volumes/Files HD/Coding/hdatastruct/main.c
+stdio.h
+-
+string.h
+-
 hds_stack.h
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+/Volumes/Files HD/Coding/hdatastruct/hds_stack.h
 
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack_destroy.c
-hds_stack.h
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_basic.c
+hds_queue.h
+/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue.h
+stdlib.h
+-
 
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c
-hds_stack.h
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_destroy.c
+hds_queue.h
+/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue.h
 
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c
-hds_stack.h
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_init.c
+hds_queue.h
+/Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue.h
 
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c
+/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_basic.c
 hds_stack.h
-/Users/hans/Coding/hdatastruct/src/stack/hds_stack.h
+/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack.h
+
+/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_destroy.c
+hds_stack.h
+/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack.h
+
+/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_init.c
+hds_stack.h
+/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack.h
+
+/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_pop.c
+hds_stack.h
+/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack.h
+
+/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_push.c
+hds_stack.h
+/Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack.h
 

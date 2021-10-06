@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 #include "hds_stack.h"
+#include "hds_queue.h"
 
 #define HDS_STACK_USE_DOUBLY_LINKED_LIST
+#define HDS_QUEUE_USE_DOUBLY_LINKED_LIST
 
 int main()
 {

@@ -14,6 +14,11 @@ types in C.
 - Stack
   - Initialize & Destroy
   - Push & Pop
+  - Doubly linked list support
+- Queue
+  - Initialize & Destroy
+  - Enqueue
+  - Doubly linked list support
 
 ## Why this project
 I write this library for in my another repo `CAlgoIntro`, I need implementations of different data structures for many

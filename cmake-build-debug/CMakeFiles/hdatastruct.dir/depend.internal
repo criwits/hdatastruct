@@ -3,19 +3,28 @@
 
 CMakeFiles/hdatastruct.dir/main.c.o
  ../include/hds_stack.h
- /Users/hans/Coding/hdatastruct/main.c
+ /Volumes/Files HD/Coding/hdatastruct/main.c
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_basic.c.o
+ ../include/hds_queue.h
+ /Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_basic.c
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_destroy.c.o
+ ../include/hds_queue.h
+ /Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_destroy.c
+CMakeFiles/hdatastruct.dir/src/queue/hds_queue_init.c.o
+ ../include/hds_queue.h
+ /Volumes/Files HD/Coding/hdatastruct/src/queue/hds_queue_init.c
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_basic.c.o
  ../include/hds_stack.h
- /Users/hans/Coding/hdatastruct/src/stack/hds_stack_basic.c
+ /Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_basic.c
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_destroy.c.o
  ../include/hds_stack.h
- /Users/hans/Coding/hdatastruct/src/stack/hds_stack_destroy.c
+ /Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_destroy.c
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_init.c.o
  ../include/hds_stack.h
- /Users/hans/Coding/hdatastruct/src/stack/hds_stack_init.c
+ /Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_init.c
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_pop.c.o
  ../include/hds_stack.h
- /Users/hans/Coding/hdatastruct/src/stack/hds_stack_pop.c
+ /Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_pop.c
 CMakeFiles/hdatastruct.dir/src/stack/hds_stack_push.c.o
  ../include/hds_stack.h
- /Users/hans/Coding/hdatastruct/src/stack/hds_stack_push.c
+ /Volumes/Files HD/Coding/hdatastruct/src/stack/hds_stack_push.c
